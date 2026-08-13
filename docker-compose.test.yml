@@ -1,0 +1,6 @@
+services:
+  app:
+    build: .
+    command: ["python3","-m","http.server","8081"]
+    ports:
+      - "8081"
